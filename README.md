@@ -37,8 +37,6 @@ This repo hosts our [NeoVim](https://neovim.io/) configuration for Linux. `init.
 ## 📂 File Structure
 The files under config will be automatically loaded at the appropriate time,
 so you don't need to require those files manually.
-**LazyVim** comes with a set of default config files that will be loaded
-**_before_** your own. See [here](https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/config)
 
 <pre>
 ~/.config/nvim
