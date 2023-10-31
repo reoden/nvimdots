@@ -33,3 +33,24 @@ This repo hosts our [NeoVim](https://neovim.io/) configuration for Linux. `init.
   mv ~/.config/nvim ~/.config/nvim.bak
   mv ~/.local/share/nvim ~/.local/share/nvim.bak
   ```
+
+## 📂 File Structure
+The files under config will be automatically loaded at the appropriate time,
+so you don't need to require those files manually.
+**LazyVim** comes with a set of default config files that will be loaded
+**_before_** your own. See [here](https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/config)
+
+<pre>
+~/.config/nvim
+├── lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+│       ├── spec1.lua
+│       ├── **
+│       └── spec2.lua
+└── init.lua
+</pre>
