@@ -42,15 +42,24 @@ so you don't need to require those files manually.
 
 <pre>
 ~/.config/nvim
-├── lua
-│   ├── config
-│   │   ├── autocmds.lua
-│   │   ├── keymaps.lua
-│   │   ├── lazy.lua
-│   │   └── options.lua
-│   └── plugins
-│       ├── spec1.lua
-│       ├── **
-│       └── spec2.lua
-└── init.lua
+├── init.lua
+├── lazy-lock.json
+└── lua
+    ├── config
+    │   ├── keymaps.lua
+    │   ├── lazy.lua
+    │   └── options.lua
+    └── plugins
+        ├── autopairs.lua
+        ├── bufferline.lua
+        ├── cmp.lua
+        ├── colorscheme.lua
+        ├── comment.lua
+        ├── lspconfig.lua
+        ├── lualine.lua
+        ├── mason.lua
+        ├── neotree.lua
+        ├── surround.lua
+        ├── telescope.lua
+        └── treesitter.lua
 </pre>
